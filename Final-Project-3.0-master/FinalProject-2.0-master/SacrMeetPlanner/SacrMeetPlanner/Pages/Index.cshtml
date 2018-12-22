@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <img src="~/images/banner2.jpg" alt="picture of a rack">
+    </div>
+    <div class="col-md-12 text-center">
+        <h1>Welcome to the Sacrament Meeting Planner</h1>
+        <p>
+            This is a system to help Bishops organize the sacrament meetings.
+        </p>
+    </div>
+    <div class="col-md-3">
+        <h2>Create Meetings</h2>
+        <p>You can create your meetings here </p>
+        <p><a class="btn btn-warning" href="/Meetings/Create">Create Meeting &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <img src="~/images/chapel.JPG" style="width: 200px; height: 150px; padding: 0; margin: 10px; border: solid 4px #eea236;" />
+    </div>
+    <div class="col-md-3">
+        <h2>View Meetings</h2>
+        <p>You can view all past Meetings here </p>
+        <p><a class="btn btn-warning" href="/Meetings/Index">See Meetings &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <img src="~/images/metting.png" style="width: 200px; height: 150px; padding: 0; margin: 10px; border: solid 4px #eea236;" />
+    </div>
+</div>
